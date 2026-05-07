@@ -1,4 +1,4 @@
-def is_balanced(s):
+def is_balanced_og(s):
     # Use set for faster lookup
     vowels = set("aeiouAEIOU")
     mid = len(s)//2
