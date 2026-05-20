@@ -1,4 +1,4 @@
-def fibonacci_sequence(start_sequence, length):
+def fibonacci_sequence_og(start_sequence, length):
     if length == 0:
         return []
 
@@ -12,7 +12,7 @@ def fibonacci_sequence(start_sequence, length):
 
     return seq
 
-
+# Optimal
 def fibonacci_sequence(start_sequence, length):
     if length == 0:
         return []
